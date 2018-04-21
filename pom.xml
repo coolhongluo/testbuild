@@ -15,7 +15,7 @@
             <releases><enabled>true</enabled></releases>
             <snapshots><enabled>true</enabled></snapshots>
             <id>apache-snapshots</id>
-            <url>hhttps://100.125.0.198:443/nexus/content/groups/public/</url>
+            <url>https://100.125.0.198:443/nexus/content/groups/public/</url>
         </repository>
     </repositories>
     <properties>
