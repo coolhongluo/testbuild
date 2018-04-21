@@ -10,7 +10,14 @@
 
     <name>lwhtestbuild</name>
     <url>http://maven.apache.org</url>
-
+<repositories>
+        <repository>
+            <releases><enabled>false</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+            <id>apache-snapshots</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cse.version>2.3.12</cse.version>
