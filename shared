@@ -1,0 +1,39 @@
+{
+                        "name": "service-mesher", 
+                        "image": "{image_repo}/{image_namespace}/cse-mesher:latest", 
+                        "env": [
+                            {
+                                "name": "SPECIFIC_ADDR", 
+                                "value": "127.0.0.1:3001"
+                            }, 
+                            {
+                                "name": "CSE_REGISTRY_ADDR", 
+                                "value": "https://cse.cn-north-1.myhuaweicloud.com:443"
+                            }, 
+                            {
+                                "name": "CSE_CONFIG_CENTER_ADDR", 
+                                "value": "https://cse.cn-north-1.myhuaweicloud.com:443"
+                            }, 
+                            {
+                                "name": "CSE_MONITOR_SERVER_ADDR", 
+                                "value": "https://cse.cn-north-1.myhuaweicloud.com:443"
+                            }, 
+                            {
+                                "name": "APP_ID", 
+                                "value": "weathermap"
+                            }, 
+                            {
+                                "name": "SERVICE_NAME", 
+                                "value": ""weathermapweb"
+                            }, 
+                            {
+                                "name": "VERSION", 
+                                "value": "1.0.0"
+                            }
+                        ], 
+                        "resources": { }, 
+                        "lifecycle": { }, 
+                        "terminationMessagePath": "/dev/termination-log", 
+                        "terminationMessagePolicy": "File", 
+                        "imagePullPolicy": "Always"
+                    }
